@@ -4,7 +4,8 @@ import (
 	"flag"
 	"fmt"
 	"os"
-	"routehash/hashRoute"
+
+	"github.com/agusjanardana/routehash/hashRoute"
 )
 
 func main() {
