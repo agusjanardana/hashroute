@@ -28,7 +28,7 @@ func WriteToRoute2(apiGroup string, name string, method string, controller strin
 	braceIndex := strings.Index(functionBody, ")")
 
 	// Modify the function body by inserting the new code after the first curly brace
-	toReplace := "[APIGROUP].[METHOD](/\"[NAME]\", [CONTROLLER])"
+	toReplace := "[APIGROUP].[METHOD](\"/[NAME]\", [CONTROLLER])"
 	toReplace = strings.Replace(toReplace, "[APIGROUP]", apiGroup, 1)
 	toReplace = strings.Replace(toReplace, "[METHOD]", method, 1)
 	toReplace = strings.Replace(toReplace, "[NAME]", name, 1)
