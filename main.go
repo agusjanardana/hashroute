@@ -24,5 +24,5 @@ func main() {
 	dataToReturn := hashRoute.HashRoute(*customCommand)
 
 	// run custom command
-	fmt.Printf("Route name hashed : %s\n", dataToReturn)
+	fmt.Println("Route name hashed for",*customCommand,"is :", dataToReturn)
 }
