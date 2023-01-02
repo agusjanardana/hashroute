@@ -30,7 +30,7 @@ func main() {
 	dataToReturn := hashRoute.HashRoute(*nameForRoute)
 
 	// write it to app/configs/routes
-	hashRoute.WriteToRoute2(*apiGroup, *nameForRoute, *method, *controller)
+	hashRoute.WriteToRoute2(*apiGroup, dataToReturn, *method, *controller)
 
 	// run custom command
 	fmt.Println("Route name hashed for", *nameForRoute, "is :", dataToReturn)
