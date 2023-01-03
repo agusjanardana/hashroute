@@ -19,7 +19,7 @@ func WriteToRoute2(apiGroup string, name string, method string, controller strin
 
 	// Find the start and end indices of the "registration" function
 	startIndex := strings.Index(str, apiGroup)
-	endIndex := strings.Index(str, "}")
+	endIndex := strings.Index(str, "//\tend of router")
 
 	// Extract the function body as a string
 	functionBody := str[startIndex : endIndex+1]
