@@ -3,7 +3,7 @@
 Install di local machine teman-teman dan perhatikan juga tags yang released terbaru
 
 ```
-go install -v github.com/agusjanardana/routehash@v1.1.3
+go install -v github.com/agusjanardana/routehash@v1.1.4
 ```
 
 Cara menggunakan
