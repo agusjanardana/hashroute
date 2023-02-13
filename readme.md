@@ -16,13 +16,13 @@ routehash --name="name_of_route" --method="api_method" --apiGroup="api_group" --
 Contoh 
 
 ```
-routehash --name="test/asd/asd" --method="GET" --apiGroup="apiV1" --controller="c1.OauthService.CreateToken
+routehash --name="test/asd/asd" --method="GET" --apiGroup="apiV1" --controller="c1.OauthService.CreateToken"
 ```
 
 Notice 
 
 ```
 Perhatikan bahwa, library ini hanya berfungsi ketika struktur folder yang digunakan sudah sesuai dengan templates golang
-yang mana harus terdapat router.go pada app/configs/router.go
+yang mana harus terdapat router.go pada app/routes/router.go
 
 ```
